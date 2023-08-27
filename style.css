@@ -1,0 +1,189 @@
+:root {
+	font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(https://i.pinimg.com/236x/71/e2/1c/71e21cbafd3354632aa5e82998c6e8ff.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*header hissesi*/
+header{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #DCABC9;
+	color: white;
+	padding: 30px;
+	gap: 20px;
+	color: white;
+}
+header nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+header nav ul li a:hover{
+	animation: basliq 7s infinite;
+}
+@keyframes basliq{
+	20%{
+		color: orangered;
+	}
+	40%{
+		color: springgreen;
+	}
+	60%{
+		color: lightsteelblue;
+	}
+	80%{
+		color: goldenrod;
+	}
+	100%{
+		color: azure;
+	}
+}
+header h1{
+	font-size: 50px;
+}
+header nav ul{
+	display: flex;
+	gap: 25px;
+}
+/*main hisse*/
+.sec{
+	margin: 20px;
+}
+section h2{
+	color: #CC00CC;
+/*	color: #8D306E;*/
+	text-align: center;
+}
+/*haqqinda*/
+#about p{
+	font-size: 17px;
+	margin-top: 20px;
+}
+/*projectler */
+#project div h3 a{
+	color: blueviolet;
+	text-decoration: none;
+	font-size: 20px;
+}
+#project div h3 a:hover{
+	animation: projectnames 7s infinite;
+}
+@keyframes projectnames{
+	20%{
+		color: cadetblue;
+	}
+	40%{
+		color: lawngreen;
+	}
+	60%{
+		color: mediumvioletred;
+	}
+	80%{
+		color: goldenrod;
+	}
+	98%{
+		color: blueviolet;
+	}
+}
+#project div p{
+	margin-top: 10px;
+    color: darkgoldenrod;
+}
+#project h3{
+	font-size: 18px;
+}
+#project div{
+	display: flex;
+	flex-direction: column;
+	border: 3px double hotpink;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 10px;
+}
+section h2{
+	font-size: 30px;
+}
+/*form ve elaqe hissesi*/
+#contact form{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+#contact form label{
+	display: flex;
+	flex-direction: column;
+    margin-top: 10px;
+}
+#contact form label{
+	color: #CC0066;
+	font-size: 18px;
+}
+#contact form input,textarea{
+	width: 300px;
+	padding: 10px;
+	font-size: 15px;
+}
+#contact form #name{
+	text-transform: capitalize;
+}
+/*button hissesi*/
+#contact button{
+	border: 2px solid black;
+	width: 100px;
+	background-color: peachpuff;
+	color: black;
+	transition: all 3s;
+}
+#contact button:hover{
+	width: 200px;
+	color: white;
+	animation: submit 7s infinite;
+}
+@keyframes submit{
+	20%{
+		border-color: yellow;
+		color: yellow;
+		background-color: violet;
+	}
+	40%{
+		border-color: darkgreen;
+		color: darkgreen;
+		background-color: blueviolet;
+	}
+	60%{
+		border-color: pink;
+		color: pink;
+		background-color: darkcyan;
+	}
+	80%{
+		border-color: orange;
+		color: orange;
+		background-color: darkcyan;
+	}
+	90%{
+		border-color: greenyellow;
+		color: greenyellow;
+		background-color: deeppink;
+	}
+	100%{
+		border-color: black;
+		color: white;
+		background-color: royalblue;
+	}
+}
+#contact button{
+	margin-top: 10px;
+	padding: 8px;
+}
+
+/*footer*/
+footer{
+	color: darkred;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	font-size: 25px;
+}
